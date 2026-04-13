@@ -3,7 +3,7 @@ package Semana01;
 import java.util.Scanner;
 
 public class ejer14 {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int opcion;
         int positivos = 0, negativos = 0;
