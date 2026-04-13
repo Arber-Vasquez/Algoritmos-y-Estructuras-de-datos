@@ -18,9 +18,9 @@ public class ejer03 {
         int menor = numero;
         double suma = numero;
 
-        int ceros = 0; // para contar la cantidad de ceros ingresados
-        int positivos = 0; // para contar la cantidad de numeros positivos ingresados
-        int negativos = 0; // para contar la cantidad de numeros negativos ingresados
+        int ceros = 0;
+        int positivos = 0;
+        int negativos = 0;
 
         if(numero == 0){
             ceros++;
@@ -38,7 +38,7 @@ public class ejer03 {
             if (numero < menor) {
                 menor = numero;
             }
-            suma += numero; // sumamos el numero ingresado al promedio
+            suma += numero;
 
             if (numero == 0) {
                 ceros++;
