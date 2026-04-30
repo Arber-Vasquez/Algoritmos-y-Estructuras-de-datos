@@ -1,12 +1,12 @@
 package examenmvc.vista;
 import javax.swing.*;
-public class Tarea extends JFrame {
+public class VistaTarea extends JFrame {
 
     public JTextField txtCodigo, txtTitulo, txtCurso, txtFecha;
     public JComboBox<String> cbEstado;
     public JButton btnRegistrar;
 
-    public Tarea() {
+    public VistaTarea() {
         setTitle("Sistema de Tareas");
         setSize(400, 320);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
