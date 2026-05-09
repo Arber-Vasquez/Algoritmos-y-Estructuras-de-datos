@@ -4,15 +4,23 @@ import Semana05.modelo.ArchivoCliente;
 
 public class ProcesadorArchivo {
 
-    public void descargarArchivo(ArchivoCliente archivo) {
-        System.out.println("Descargando: " + archivo.getNombre());
-    }
+    public void procesar(ArchivoCliente archivo) {
 
-    public void validarArchivo(ArchivoCliente archivo) {
-        System.out.println("Validando: " + archivo.getNombre());
-    }
+        try {
 
-    public void procesarArchivo(ArchivoCliente archivo) {
-        System.out.println("Procesando: " + archivo.getNombre());
+            System.out.println("Descargando archivo...");
+            Thread.sleep(3000);
+
+            System.out.println("Validando archivo...");
+            Thread.sleep(2000);
+
+            System.out.println("Procesando archivo...");
+            Thread.sleep(3000);
+
+            System.out.println("Proceso finalizado.");
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
